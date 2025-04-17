@@ -1,79 +1,543 @@
-[00:51:10] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[00:51:10] [main/INFO]: Loading 4 mods:
-	- fabricloader 0.16.3
-	   \-- mixinextras 0.4.1
-	- java 17
+[17Apr2025 12:31:15.254] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[17Apr2025 12:31:15.259] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[17Apr2025 12:31:17.007] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[17Apr2025 12:31:17.014] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[17Apr2025 12:31:17.048] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[17Apr2025 12:31:17.049] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[17Apr2025 12:31:17.068] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[17Apr2025 12:31:17.113] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ubiquitous-funicular/servidor_minecraft/mods/Connector-1.0.0-beta.37+1.20.1.jar%23420%23423!/ Service=ModLauncher Env=SERVER
+[17Apr2025 12:31:18.014] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ubiquitous-funicular/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.6/fmlcore-1.20.1-47.2.6.jar is missing mods.toml file
+[17Apr2025 12:31:18.015] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ubiquitous-funicular/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.6/javafmllanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[17Apr2025 12:31:18.016] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ubiquitous-funicular/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.6/lowcodelanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[17Apr2025 12:31:18.016] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ubiquitous-funicular/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.6/mclanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[17Apr2025 12:31:18.928] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[17Apr2025 12:31:18.929] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/ubiquitous-funicular/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.4.jar
+[17Apr2025 12:31:18.930] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: terrablender. Using Mod File: /workspaces/ubiquitous-funicular/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.4.jar
+[17Apr2025 12:31:18.930] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: aeroblender. Using Mod File: /workspaces/ubiquitous-funicular/servidor_minecraft/mods/aeroblender-1.20.1-1.0.1-neoforge.jar
+[17Apr2025 12:31:18.930] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/ubiquitous-funicular/servidor_minecraft/mods/curios-forge-5.7.2+1.20.1.jar
+[17Apr2025 12:31:18.930] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 88 dependencies adding them to mods collection
+[17Apr2025 12:31:20.560] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 6 candidates to load
+[17Apr2025 12:31:24.549] [ForkJoinPool-2-worker-4/INFO] [dev.su5ed.sinytra.adapter.patch.transformer.ModifyMethodParams/]: Substituting parameter 17 for 16 in codes/ztereohype/nicerskies/mixin/LightTextureMixin.injectWarmLight
+[17Apr2025 12:31:43.167] [main/INFO] [Configured Defaults/]: Applying default files...
+[17Apr2025 12:31:43.168] [main/INFO] [Configured Defaults/]: Successfully created fresh 'servidor_minecraft/configureddefaults' directory
+[17Apr2025 12:31:43.168] [main/INFO] [Configured Defaults/]: Successfully created fresh 'servidor_minecraft/configureddefaults/README.md' file
+[17Apr2025 12:31:43.732] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[17Apr2025 12:31:52.339] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17Apr2025 12:31:53.668] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[17Apr2025 12:31:53.685] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[17Apr2025 12:31:53.763] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.14.0+mc1.20.1: 74 options available, 2 override(s) found
+[17Apr2025 12:31:53.764] [main/WARN] [ModernFix/]: Option 'mixin.perf.faster_item_rendering' overriden (by user configuration) to 'true'
+[17Apr2025 12:31:53.764] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[17Apr2025 12:31:53.764] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[17Apr2025 12:31:53.775] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[17Apr2025 12:31:53.869] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:53.896] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:53.900] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:53.930] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:53.966] [main/WARN] [Radium Config/]: No configuration key exists with name 'mixin.entity.collisions.suffocation', ignoring
+[17Apr2025 12:31:53.977] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 126 options available, 11 override(s) found
+[17Apr2025 12:31:54.060] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.305] [Thread-1/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[17Apr2025 12:31:54.437] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.472] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.539] [main/WARN] [mixin/]: Reference map 'mpuc_lavendermc.refmap.json' for mpuc_lavendermd.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.564] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.613] [main/WARN] [mixin/]: Reference map 'lmft-common-refmap.json' for lmft-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.619] [main/WARN] [mixin/]: Reference map 'TetraExtras-1.20.refmap.json' for tetraextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.635] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.639] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-forge-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.685] [main/WARN] [mixin/]: Reference map 'cuisinedelight.refmap.json' for cuisinedelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.725] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.924] [main/INFO] [Puzzles Lib/]: Loading 394 mods:
+	- additionalentityattributes 1.4.0.5+1.20.1
+	- advancednetherite 2.0.2
+	- advancementplaques 1.5.1
+	- aeroblender 1.20.1-1.0.1-neoforge
+	- aether 1.20.1-1.2.0-neoforge
+	- aether_enhanced_extinguishing 1.20.1-1.0.0-neoforge
+	- aether_redux 2.0.6
+	- aetherdelight 1.0.0
+	- aetheric_tetranomicon 1.1.0-1.20.1
+	- alexscaves 1.1.4
+	- alexsmobs 1.22.8
+	- allthetrims 3.4.2
+	- alternate_current 1.7.0
+	- amecsapi 1.5.3+mc1.20-pre1
+	- amendments 1.20-1.1.10
+	- ancient_aether 0.8.8
+	- apexcore 10.0.0
+	- apoli 1.20.1-2.9.0.6
+	- apotheosis 7.3.1
+	- apotheotic_additions 2.0.1
+	- apothiccombat 1.0.0
+	- apothiccurios 1.0.3b
+	- apugli 2.10.0+1.20.1-forge
+	- aquamirae 6.API15
+	- architectury 9.2.14
+	- ars_nouveau 4.9.0
+	- ash_api 3.0.2+1.20.1
+	- attributefix 21.0.4
+	- attributeslib 1.3.1
+	- autoleveling 1.19b
+	- azurelib 2.0.20
+	- azurelibarmor 2.0.3
+	- badmobs 19.0.4
+	- bagus_lib 1.20.1-4.4.0
+	- balm 7.2.2
+	- barteringstation 8.0.0
+	- bcc 4.0.8
+	- bclib 3.0.14
+	- betterarcheology 1.1.7-1.20.1
+	- bettercombat 1.8.4+1.20.1
+	- betterdungeons 1.20-Forge-4.0.3
+	- betterend 4.0.11
+	- betterendisland 1.20-Forge-2.0.5
+	- betterfortresses 1.20-Forge-2.0.5
+	- betterfpsdist 1.20.1-4.3
+	- betterjungletemples 1.20-Forge-2.0.4
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- betterwitchhuts 1.20-Forge-3.0.3
+	- biomemusic 1.20.1-2.3
+	- biomesoplenty 18.0.0.598
+	- blockui 1.20.1-1.0.151-BETA
+	- bloodmagic 3.3.2-44
+	- blue_skies 1.3.31
+	- blueprint 7.0.0
+	- boatbreakfix 1.0.2
+	- bookshelf 20.1.9
+	- bosses_of_mass_destruction 1.0.6
+	- bountiful 6.0.3+1.20.1
+	- bygonenether 1.3.2
+	- caelus 3.1.0+1.20
+	- calio 1.20.1-1.11.0.3
+	- carryon 2.1.2.7
+	- cataclysm 1.0
+	- celestisynth 1.20.1-1.2.2
+	- charmofundying 6.5.0+1.20.1
+	- chefsdelight 1.0.3-forge-1.20.1
+	- christmascolonies 1.4
+	- chunksending 1.20.1-2.8
+	- citadel 2.5.4
+	- clientcrafting 1.20.1-1.8
+	- cloth_config 11.1.118
+	- clumps 12.0.0.3
+	- collective 7.36
+	- combatroll 1.3.1+1.20.1
+	- commonality 7.0.0
+	- commonnetworking 1.0.2-1.20.1
+	- conjurer_illager 1.1.6
+	- connectivity 1.20.1-5.5
+	- connectorextras 1.9.2+1.20.1
+	- connectorextras_architectury_bridge 1.9.2+1.20.1
+	- connectorextras_continuity_compat 1.9.2+1.20.1
+	- connectorextras_emi_bridge 1.9.2+1.20.1
+	- connectorextras_energy_bridge 1.9.2+1.20.1
+	- connectorextras_geckolib_fabric_compat 1.9.2+1.20.1
+	- connectorextras_jei_bridge 1.9.2+1.20.1
+	- connectorextras_kubejs_bridge 1.9.2+1.20.1
+	- connectorextras_modmenu_bridge 1.9.2+1.20.1
+	- connectorextras_rei_bridge 1.9.2+1.20.1
+	- connectorextras_terrablender_bridge 1.9.2+1.20.1
+	- connectormod 1.0.0-beta.37+1.20.1
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.10
+	- cosmeticarmorreworked 1.20.1-v1a
+	- crabbersdelight 1.1.4
+	- creativecore 2.11.25
+	- cristellib 1.1.5
+	- ctov 3.4.2
+	- cuisinedelight 1.1.13
+	- cumulus_menus 1.20.1-1.0.0-neoforge
+	- cupboard 1.20.1-2.6
+	- curios 5.7.2+1.20.1
+	- decorative_blocks 4.0.2
+	- deep_aether 1.20.1-1.0.2
+	- deeperdarker 1.2.1
+	- delightful 3.5.2
+	- despawn_tweaker 1.20.1-1.0.0
+	- deuf 1.20.1-1.3
+	- dimasctetracompat 1.20.1-1.4.0.1
+	- dimensionalsycnfixes 1.20.1-0.0.1
+	- domum_ornamentum 1.20-1.0.170-BETA
+	- dramaticdoors 1.20.1-3.1.5
+	- drinkbeer 1.0.4
+	- dummmmmmy 1.20-1.8.14
+	- dungeons_arise 2.1.58-1.20.x
+	- dungeons_arise_seven_seas 1.0.2
+	- dungeons_enhanced 5.2.2
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- eidolon 1.20.1-0.3.8.1
+	- eldritch_end 0.2.31
+	- elytraslot 6.3.0+1.20.1
+	- endermanoverhaul 1.0.4
+	- endersdelight 1.0.3
+	- endrem 5.2.3-R-1.20.1
+	- epicempires 0.0.4-neo
+	- epicsamurai 0.0.40-1.20.1-neo
+	- everycomp 1.20-2.6.36
+	- explorations 1.20.1-1.5.2
+	- extra_compat 1.4.1
+	- fabric_api 0.92.0+1.11.3+1.20.1
+	- fabric_api_base 0.4.31+ef105b4977
+	- fabric_api_lookup_api_v1 1.6.36+67f9824077
+	- fabric_biome_api_v1 13.0.13+dd0389a577
+	- fabric_block_api_v1 1.0.11+0e6cb7f777
+	- fabric_block_view_api_v2 1.0.1+0767707077
+	- fabric_blockrenderlayer_v1 1.1.41+1d0da21e77
+	- fabric_client_tags_api_v1 1.1.2+5d6761b877
+	- fabric_command_api_v1 1.2.34+f71b366f77
+	- fabric_command_api_v2 2.2.13+561530ec77
+	- fabric_content_registries_v0 4.0.11+a670df1e77
+	- fabric_convention_tags_v1 1.5.5+fa3d1c0177
+	- fabric_data_attachment_api_v1 1.0.0+30ef839e77
+	- fabric_data_generation_api_v1 12.3.4+369cb3a477
+	- fabric_dimensions_v1 2.1.54+8005d10d77
+	- fabric_entity_events_v1 1.6.0+6274ab9d77
+	- fabric_events_interaction_v0 0.6.2+0d0bd5a777
+	- fabric_game_rule_api_v1 1.0.40+683d4da877
+	- fabric_item_api_v1 2.1.28+2272fc7f77
+	- fabric_item_group_api_v1 4.0.12+c9161c2d77
+	- fabric_key_binding_api_v1 1.0.37+561530ec77
+	- fabric_lifecycle_events_v1 2.2.22+afab492177
+	- fabric_loot_api_v2 1.2.1+eb28f93e77
+	- fabric_message_api_v1 5.1.9+52cc178c77
+	- fabric_mining_level_api_v1 2.1.50+561530ec77
+	- fabric_model_loading_api_v1 1.0.3+6274ab9d77
+	- fabric_models_v0 0.4.2+7c3892a477
+	- fabric_networking_api_v1 1.3.11+503a202477
+	- fabric_object_builder_api_v1 11.1.3+2174fc8477
+	- fabric_particles_v1 1.1.2+78e1ecb877
+	- fabric_recipe_api_v1 1.0.21+514a076577
+	- fabric_registry_sync_v0 2.3.3+1c0ea72177
+	- fabric_renderer_api_v1 3.2.1+1d29b44577
+	- fabric_renderer_indigo 1.5.1+67f9824077
+	- fabric_rendering_data_attachment_v1 0.3.37+a6081afc77
+	- fabric_rendering_fluids_v1 3.0.28+4ac5e37a77
+	- fabric_rendering_v1 3.0.8+1c0ea72177
+	- fabric_resource_conditions_api_v1 2.3.8+9ad825cd77
+	- fabric_resource_loader_v0 0.11.10+cefbb70477
+	- fabric_screen_api_v1 2.0.8+45a670a577
+	- fabric_screen_handler_api_v1 1.3.30+561530ec77
+	- fabric_sound_api_v1 1.0.13+4f23bd8477
+	- fabric_transfer_api_v1 3.3.4+b00938ec77
+	- fabric_transitive_access_wideners_v1 4.3.1+1880499877
+	- fantasyfurniture 9.0.0
+	- farmersdelight 1.20.1-1.2.4
+	- farsight_view 1.20.1-3.6
+	- fastasyncworldsave 1.20.1-1.4
+	- fastpaintings 1.20-1.2.4
+	- ferritecore 6.0.1
+	- flib 0.0.11
+	- forbidden_arcanus 1.20.1-2.2.5
+	- forge 47.2.6
+	- forgeconfigapiport 8.0.0
+	- forgeconfigscreens 8.0.2
+	- formations 1.0.2
+	- formationsnether 1.0.3
+	- formationsoverworld 1.0.2
+	- framework 0.6.27
+	- friendsandfoes 2.0.10
+	- ftbchunks 2001.2.6
+	- ftblibrary 2001.1.5
+	- ftbquests 2001.3.4
+	- ftbteams 2001.2.0
+	- ftbxmodcompat 2.1.0
+	- fullstackwatchdog 1.0.1+1.19.2-forge
+	- gardens_of_the_dead 4.0.1
+	- geckoanimfix 1.0.0
+	- geckolib 4.4.4
+	- geophilic_reforged 1.2.0
+	- geore 2.4.2
+	- georenouveau 0.4.1
+	- goblintraders 1.9.3
+	- grassoverhaul 23.10.10
+	- graveyard 3.1
+	- guardvillagers 1.20.1-1.6.4
+	- handcrafted 3.0.6
+	- hearths 1.0.0-mc1.20u1.20.1
+	- highlighter 1.1.9
+	- horseexpert 8.1.1
+	- hunters_return 1.20.1-11.4.2
+	- ice_and_fire_spellbooks 2.1.0-1.20.1
+	- iceandfire 2.1.13-1.20.1-beta-4
+	- iceberg 1.1.21
+	- illagerinvasion 8.0.4
+	- immersive_armors 1.6.1+1.20.1
+	- irons_spellbooks 1.20.1-3.1.0
+	- item_obliterator 1.7.0
+	- itemfilters 2001.1.0-build.59
+	- itemproductionlib 1.0.2a
+	- jade 11.8.0
+	- jadecolonies 1.4.2
+	- jei 15.2.0.27
+	- jeresources 1.4.0.247
+	- jmi 1.20.1-0.14-47
+	- journeymap 5.9.18p1
+	- journeymapteams 1.1.0
+	- justenoughbreeding 1.0.12
+	- kambrik 6.1.1+1.20.1
+	- kiwi 11.5.5
+	- kleeslabs 15.0.0
+	- knightsnmages 0.0.7-neo
+	- konkrete 1.8.0
+	- kotlinforforge 4.10.0
+	- krypton 0.2.3
+	- l2library 2.4.16
+	- leavesbegone 8.0.0
+	- lithostitched 1.1.5
+	- lmft 1.0.4+1.20.1
+	- logbegone 1.0.8
+	- lootintegrations 1.20.1-3.4
+	- lost_aether_content 1.2.3
+	- lunar 0.1.10
+	- magnumtorch 8.0.2
+	- mapfrontiers 2.6.0
+	- maxhealthfix 12.0.2
+	- medieval_paintings 7.0
+	- medievalorigins 6.2.5+1.20.1-forge
+	- melody 1.0.2
+	- memoryleakfix 1.1.5
+	- memorysettings 1.20.1-5.4
+	- mes 1.3-1.20-forge
+	- minecolonies 1.20.1-1.1.510-BETA
 	- minecraft 1.20.1
-[00:51:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ubiquitous-funicular/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:51:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:51:17] [main/INFO]: Loaded 7 recipes
-[00:51:17] [main/INFO]: Loaded 1271 advancements
-[00:51:18] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:51:18] [Server thread/INFO]: Loading properties
-[00:51:18] [Server thread/INFO]: Default game type: SURVIVAL
-[00:51:18] [Server thread/INFO]: Generating keypair
-[00:51:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:51:18] [Server thread/INFO]: Using epoll channel type
-[00:51:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:51:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:51:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:51:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:51:18] [Server thread/INFO]: Preparing level "world"
-[00:51:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:51:24] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:51:24] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:51:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[00:51:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[00:51:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[00:51:26] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[00:51:26] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[00:51:27] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[00:51:27] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[00:51:28] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[00:51:28] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[00:51:29] [Worker-Main-2/INFO]: Preparing spawn area: 8%
-[00:51:29] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[00:51:30] [Worker-Main-1/INFO]: Preparing spawn area: 10%
-[00:51:30] [Worker-Main-2/INFO]: Preparing spawn area: 12%
-[00:51:31] [Worker-Main-2/INFO]: Preparing spawn area: 15%
-[00:51:31] [Worker-Main-2/INFO]: Preparing spawn area: 15%
-[00:51:32] [Worker-Main-1/INFO]: Preparing spawn area: 17%
-[00:51:32] [Worker-Main-2/INFO]: Preparing spawn area: 20%
-[00:51:33] [Worker-Main-2/INFO]: Preparing spawn area: 22%
-[00:51:33] [Worker-Main-1/INFO]: Preparing spawn area: 24%
-[00:51:34] [Worker-Main-1/INFO]: Preparing spawn area: 27%
-[00:51:34] [Worker-Main-2/INFO]: Preparing spawn area: 30%
-[00:51:35] [Worker-Main-3/INFO]: Preparing spawn area: 32%
-[00:51:35] [Worker-Main-3/INFO]: Preparing spawn area: 35%
-[00:51:36] [Worker-Main-1/INFO]: Preparing spawn area: 38%
-[00:51:36] [Worker-Main-3/INFO]: Preparing spawn area: 41%
-[00:51:37] [Worker-Main-3/INFO]: Preparing spawn area: 43%
-[00:51:37] [Worker-Main-3/INFO]: Preparing spawn area: 46%
-[00:51:38] [Worker-Main-3/INFO]: Preparing spawn area: 49%
-[00:51:38] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[00:51:39] [Worker-Main-3/INFO]: Preparing spawn area: 55%
-[00:51:39] [Worker-Main-2/INFO]: Preparing spawn area: 59%
-[00:51:40] [Worker-Main-1/INFO]: Preparing spawn area: 62%
-[00:51:40] [Worker-Main-2/INFO]: Preparing spawn area: 65%
-[00:51:41] [Worker-Main-1/INFO]: Preparing spawn area: 68%
-[00:51:41] [Worker-Main-1/INFO]: Preparing spawn area: 71%
-[00:51:42] [Worker-Main-1/INFO]: Preparing spawn area: 74%
-[00:51:42] [Worker-Main-1/INFO]: Preparing spawn area: 76%
-[00:51:43] [Worker-Main-1/INFO]: Preparing spawn area: 80%
-[00:51:43] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[00:51:44] [Worker-Main-3/INFO]: Preparing spawn area: 86%
-[00:51:44] [Worker-Main-1/INFO]: Preparing spawn area: 89%
-[00:51:45] [Worker-Main-3/INFO]: Preparing spawn area: 92%
-[00:51:45] [Worker-Main-3/INFO]: Preparing spawn area: 96%
-[00:51:46] [Server thread/INFO]: Time elapsed: 22506 ms
-[00:51:46] [Server thread/INFO]: Done (28.109s)! For help, type "help"
-[01:11:02] [Server thread/INFO]: Shadownasho[/127.24.109.234:38713] logged in with entity id 378 at (16.5, 59.0, -87.5)
-[01:11:02] [Server thread/INFO]: Shadownasho joined the game
-[01:13:47] [Server thread/INFO]: Shadownasho has made the advancement [Stone Age]
-[01:13:54] [Server thread/INFO]: Shadownasho has made the advancement [Getting an Upgrade]
-[01:18:44] [Server thread/INFO]: kamtastika[/127.139.252.227:55763] logged in with entity id 2444 at (25.5, 73.0, -88.5)
-[01:18:44] [Server thread/INFO]: kamtastika joined the game
-[01:19:14] [Server thread/INFO]: kamtastika lost connection: Timed out
-[01:19:14] [Server thread/INFO]: kamtastika left the game
-[01:20:25] [Server thread/INFO]: kamtastika[/127.139.252.227:59985] logged in with entity id 2834 at (25.5, 73.0, -88.5)
-[01:20:25] [Server thread/INFO]: kamtastika joined the game
+	- mixinextras 0.2.0
+	- mixinsquared 0.1.1
+	- mns 1.0-1.20-forge
+	- mobs_of_sins 0.2
+	- modernfix 5.14.0+mc1.20.1
+	- modmenu 7.2.2
+	- modpackupdatechecker 0.12.1
+	- moonlight 1.20-2.11.4
+	- mpuc_lavendermd 0.1.1
+	- multipiston 1.20-1.2.32-ALPHA
+	- mutantmonsters 8.0.7
+	- mutil 6.1.1
+	- mvs 4.1.1-1.20-forge
+	- mysticaloaktree 1.20-1.11
+	- naturescompass 1.20.1-1.11.2-forge
+	- necronomicon 1.4.2
+	- nerb 0.3
+	- neruina 1.3.0
+	- netherchested 8.0.3
+	- netherportalfix 13.0.1
+	- nethersdelight 1.20.1-4.0
+	- nicer_skies 1.3.0
+	- nightconfigfixes 8.0.0
+	- nitrogen_internals 1.20.1-1.0.2-neoforge
+	- nochatreports 1.20.1-v2.2.2
+	- nyctophobia 1.6
+	- obscure_api 15
+	- oceansdelight 1.0.2-1.20
+	- octolib 0.3
+	- origins 1.20.1-1.10.0.7
+	- outer_end 1.0.0
+	- packetfixer 1.2.8
+	- paintings 11.0.0.0
+	- passablefoliage 8.2.1
+	- patchouli 1.20.1-84-FORGE
+	- paxi 1.20-Forge-4.0
+	- pehkui 3.7.12+1.20.1-forge
+	- piglinsafety 1.20.1-0.1.0
+	- pingwheel 1.8.0
+	- placebo 8.6.1
+	- playeranimator 1.0.2-rc1+1.20
+	- polymorph 0.49.2+1.20.1
+	- prism 1.0.5
+	- puzzlesaccessapi 8.0.9
+	- puzzlesapi 8.1.5
+	- puzzleslib 8.1.17
+	- quark 4.0-438
+	- quarkdelight 1.0.0
+	- radium 0.12.2+git.5f80f74
+	- raided 0.1.4
+	- ramcompat 0.1.1
+	- reach_entity_attributes 2.4.0
+	- realmrpg_demons 0.9.0
+	- realmrpg_skeletons 1.0.3
+	- recipeessentials 1.20.1-3.2
+	- relics 0.6.2.2
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.23
+	- resourcepackoverrides 8.0.3
+	- revampedwolf 1.20.1-5.0.0
+	- riverredux 0.3.1
+	- sawmill 1.20-1.3.8
+	- searchables 1.0.2
+	- sereneseasonfix 1.20.1-1.0.8
+	- sereneseasons 9.0.0.46
+	- serverbrowser 1.0.0
+	- shield_overhaul 1.0.3
+	- silentlib 8.0.0
+	- simplyswords 1.54.0-1.20.1
+	- skilltree 0.6.11
+	- skinlayers3d 1.6.2
+	- skyvillages 1.0.3
+	- smartbrainlib 1.13
+	- smarterfarmers 1.20-1.8.3
+	- smoothchunk 1.20.1-3.6
+	- snowrealmagic 10.4.0
+	- snowundertrees 1.4.3
+	- sons_of_sins 2.1.6
+	- sound_physics_remastered 1.20.1-1.3.1
+	- spark 1.10.53
+	- spectrelib 0.13.14+1.20.1
+	- stalwart_dungeons 1.2.8
+	- starbunclemania 1.20.1-1.2.0.7
+	- starterkit 6.5
+	- stonycliffs 1.0.0
+	- structory 1.3.4
+	- structorytowers 1.0.6
+	- structure_gel 2.16.0
+	- structureessentials 1.20.1-3.3
+	- structurize 1.20.1-1.0.712-BETA
+	- stylecolonies 1.3.2
+	- supplementaries 1.20-2.8.6
+	- suppsquared 1.20-1.1.14
+	- survive 1.20.1-9.0.5
+	- t_and_t 0.0NONE
+	- tact 1.1.1
+	- terrablender 3.0.1.4
+	- tetra 6.2.0
+	- tetracelium 1.1.1
+	- tetraextras 0.1.4-1.20.1
+	- tetranomicon 1.5.3-1.20.1
+	- tlc 1.0.2
+	- tomeofblood 0.4.3
+	- toms_storage 1.6.5
+	- toofast 0.4.3.5
+	- towntalk 1.0.1
+	- tradingpost 8.0.2
+	- transparent 8.0.1+1.20.1
+	- travelersbackpack 9.1.12
+	- treasurebags 1.9.0
+	- treechop 0.18.8
+	- twigs 1.20.1-3.1.1
+	- twilightdelight 2.0.8
+	- twilightforest 4.3.2145
+	- umbral_skies 1.3
+	- undergarden 0.8.14
+	- unionlib 10.2.5
+	- unionlib_potionfluid 1.0.0
+	- valhelsia_core 1.1.1
+	- veinmining 1.3.1+1.20.1
+	- villagernames 7.3
+	- villagersplus 3.1
+	- villagesandpillages 1.0.0
+	- villagespawnpoint 4.2
+	- visuality 2.0.2
+	- visualworkbench 8.0.0
+	- voidtotem 3.0.1
+	- wabi_sabi_structures 2.0.0-1.20
+	- watut 1.20.1-1.1.0
+	- waystones 14.1.3
+	- whatareyouvotingfor 1.2.4
+	- wizards_reborn 1.20.1-0.0.10
+	- wunderlib 1.1.5
+	- yeetusexperimentus 2.3.1-build.6+mc1.20.1
+	- yungsapi 1.20-Forge-4.0.4
+	- yungsbridges 1.20-Forge-4.0.3
+	- yungsextras 1.20-Forge-4.0.3
+	- zeta 1.0-14
+	- zillagersweararmor 1.20-1.3.3
+[17Apr2025 12:31:54.947] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.975] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:54.985] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.071] [main/WARN] [mixin/]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.093] [main/WARN] [mixin/]: Reference map 'suppsquared-common-refmap.json' for suppsquared-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.096] [main/WARN] [mixin/]: Reference map 'suppsquared-forge-refmap.json' for suppsquared.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.172] [main/WARN] [mixin/]: Reference map 'octolib.refmap.json' for octolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.194] [main/WARN] [mixin/]: Reference map 'bloodmagic.refmap.json' for bloodmagic.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.241] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.248] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.252] [main/WARN] [mixin/]: Reference map 'apexcore.refmap.json' for apexcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.259] [main/WARN] [mixin/]: Reference map 'PacketFixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Apr2025 12:31:55.891] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[17Apr2025 12:31:55.910] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Apr2025 12:31:55.926] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Apr2025 12:31:56.016] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Apr2025 12:31:56.017] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Apr2025 12:31:56.469] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[17Apr2025 12:31:56.472] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.AbstractMinecartEntityMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.473] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ChestBoatEntityMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.473] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.473] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.474] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.474] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.DefaultedListAccessor' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.474] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.DoubleInventoryAccessor' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.474] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.EntityAccessor' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.475] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.EntityDataObjectMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.475] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.EntityTrackingSectionAccessor' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.476] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.477] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.477] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorAbstractFurnaceBlockEntity' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.477] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorBarrelBlockEntity' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.478] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorBrewingStandBlockEntity' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.478] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorChestBlockEntity' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.478] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorDispenserBlockEntity' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.479] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorHopperBlockEntity' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.479] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorShulkerBoxBlockEntity' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.479] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorStorageMinecartEntity' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.480] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.480] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ItemStackMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.480] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ScreenHandlerMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.481] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.TypeFilterableListMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.481] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.WorldMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.481] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as option 'mixin.block.hopper' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.506] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerWorldMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.506] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WorldChunkMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.507] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WorldMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.507] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.507] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.508] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.508] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.508] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.509] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.509] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.510] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as option 'mixin.world.block_entity_ticking.sleeping' (added by user configuration) disables it and children
+[17Apr2025 12:31:56.704] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[17Apr2025 12:31:56.705] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin from mod itemproductionlib
+[17Apr2025 12:31:56.791] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[17Apr2025 12:31:56.903] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/multiplayer/ServerSelectionList for invalid dist DEDICATED_SERVER
+[17Apr2025 12:31:56.904] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/multiplayer/ServerSelectionList (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/multiplayer/ServerSelectionList for invalid dist DEDICATED_SERVER)
+[17Apr2025 12:31:56.904] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.multiplayer.ServerSelectionList was not found serverbrowser.mixins.json:ServerSelectionMixin from mod serverbrowser
+[17Apr2025 12:31:57.156] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[17Apr2025 12:31:57.156] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[17Apr2025 12:31:57.156] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[17Apr2025 12:31:57.157] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[17Apr2025 12:31:57.157] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[17Apr2025 12:31:57.157] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[17Apr2025 12:31:57.166] [main/WARN] [mixin/]: Error loading class: vazkii/neat/HealthBarRenderer (java.lang.ClassNotFoundException: vazkii.neat.HealthBarRenderer)
+[17Apr2025 12:31:57.166] [main/WARN] [mixin/]: @Mixin target vazkii.neat.HealthBarRenderer was not found autoleveling.mixins.json:neat/HealthBarRendererMixin from mod autoleveling
+[17Apr2025 12:31:57.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[17Apr2025 12:31:57.399] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/FogRenderer for invalid dist DEDICATED_SERVER
+[17Apr2025 12:31:57.400] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/FogRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/FogRenderer for invalid dist DEDICATED_SERVER)
+[17Apr2025 12:31:57.400] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.FogRenderer was not found shield_overhaul.mixins.json:BackgroundRendererMixin from mod shield_overhaul
+[17Apr2025 12:31:57.491] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: recipeessentials.json
+[17Apr2025 12:31:57.536] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[17Apr2025 12:31:57.536] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[17Apr2025 12:31:57.536] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:MixinScreen from mod relics
+[17Apr2025 12:31:57.628] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[17Apr2025 12:31:57.628] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin from mod deeperdarker
+[17Apr2025 12:31:57.708] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[17Apr2025 12:31:57.708] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[17Apr2025 12:31:57.846] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[17Apr2025 12:31:57.859] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[17Apr2025 12:31:57.859] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[17Apr2025 12:31:57.860] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[17Apr2025 12:31:57.881] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[17Apr2025 12:31:57.885] [main/WARN] [dev.tonimatas.packetfixer.mixins.MixinConfigPlugin/]: For can't fit X into 3 error fix. Delete Krypton or Pluto.
+[17Apr2025 12:31:57.886] [main/WARN] [dev.tonimatas.packetfixer.mixins.MixinConfigPlugin/]: For can't fit X into 3 error fix. Delete Krypton or Pluto.
+[17Apr2025 12:31:57.909] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[17Apr2025 12:31:57.909] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[17Apr2025 12:31:58.254] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[17Apr2025 12:31:58.506] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
+[17Apr2025 12:31:58.968] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (46.23 s after launch)
+[17Apr2025 12:31:59.138] [main/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
+[17Apr2025 12:31:59.138] [main/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md56fa54$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[17Apr2025 12:31:59.139] [main/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md56fa54$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[17Apr2025 12:31:59.183] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[17Apr2025 12:31:59.184] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
